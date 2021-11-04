@@ -19,7 +19,7 @@
 
 - 《现代汉语常用字表》
 
-- [《现代汉语语料库词频表》](http://corpus.china-language.edu.cn//Resources.aspx#LinkButton3)
+- [《现代汉语语料库词频表》](http://corpus.china-language.edu.cn/Resources.aspx#LinkButton3)
 
 
 

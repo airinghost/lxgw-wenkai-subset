@@ -37,6 +37,7 @@
 /ttf/lxgw-wenkai.subset.6507.char.symbol.num.latin.ttf
 
 /* WOFF2 files */
+/woff2/lxgw-wenkai.original.v1.110-21.10.14.woff2
 /woff2/lxgw-wenkai.subset.6507.char.woff2
 /woff2/lxgw-wenkai.subset.6507.char.symbol.woff2
 /woff2/lxgw-wenkai.subset.6507.char.symbol.num.woff2
@@ -65,7 +66,7 @@
 
 ### 使用
 
-若您要使用 WebFont，那么在上述列表中需要用到的文件前添加 https://cdn.jsdelivr.net/npm/lxgw-wenkai-subset@0.3.0 即可使用 jsDelivr 的 CDN 全球加速服务。建议使用 WOFF2 格式。
+若您要使用 WebFont，那么在上述列表中需要用到的文件前添加 https://cdn.jsdelivr.net/npm/lxgw-wenkai-subset@0.3.2 即可使用 jsDelivr 的 CDN 全球加速服务。建议使用 WOFF2 格式。
 ```
 
 

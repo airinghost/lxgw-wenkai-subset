@@ -19,7 +19,7 @@
 
 - 《现代汉语常用字表》
 
-- [《现代汉语语料库词频表》](http://corpus.zhonghuayuwen.org/Resources.aspx#LinkButton3)
+- [《现代汉语语料库词频表》](http://corpus.china-language.edu.cn//Resources.aspx#LinkButton3)
 
 
 
@@ -73,4 +73,5 @@
 ## 其他 P.S.
 
 版本 0.1.x 至 0.2.x 缺了一些常见字（虽然这些字不一定常用）。
+
 Version 0.1.x-0.2.x lack some common (but may not be frequently used) characters.

@@ -66,7 +66,11 @@
 
 ### 使用
 
-若您要使用 WebFont，那么在上述列表中需要用到的文件前添加 https://cdn.jsdelivr.net/npm/lxgw-wenkai-subset@latest 即可使用 jsDelivr 的 CDN 全球加速服务。建议使用 WOFF2 格式。
+若您要使用 WebFont，那么在上述列表中需要用到的文件前添加 https://cdn.jsdelivr.net/npm/lxgw-wenkai-subset@latest 即可使用 jsDelivr 的 CDN 全球加速服务，例如：
+
+https://cdn.jsdelivr.net/npm/lxgw-wenkai-subset@latest/woff2/lxgw-wenkai.subset.6507.char.symbol.woff2
+
+建议使用 WOFF2 格式。
 ```
 
 

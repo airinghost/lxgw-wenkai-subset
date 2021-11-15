@@ -28,11 +28,16 @@
 /ttf/lxgw-wenkai.original.v1.110-21.10.14.ttf
 /ttf/lxgw-wenkai.subset.6501.char.ttf
 /ttf/lxgw-wenkai.subset.6501.char.symbol.ttf
+/ttf/lxgw-wenkai-screen.original.v1.110-RC.2.ttf
+/ttf/lxgw-wenkai-screen.subset.6501.char.ttf
+/ttf/lxgw-wenkai-screen.subset.6501.char.symbol.ttf
 
 /* WOFF2 格式 */
 /woff2/lxgw-wenkai.original.v1.110-21.10.14.woff2
 /woff2/lxgw-wenkai.subset.6501.char.woff2
 /woff2/lxgw-wenkai.subset.6501.char.symbol.woff2
+/woff2/lxgw-wenkai-screen.subset.6501.char.woff2
+/woff2/lxgw-wenkai-screen.subset.6501.char.symbol.woff2
 
 /* 字表 */
 /corpus/general-standard-chinese-characters-table1-table2.txt
@@ -42,7 +47,10 @@
 ### 2.2 说明
 
 文件名含 original 的是 @落霞孤鹜 发布的未子集化的源文件，
-版本号 v1.110-21.10.14。
+版本号 v1.110-21.10.14
+
+文件名含 screen 的是屏幕阅读版，
+版本号 v1.110-RC.2
 
 文件名含 subset 的是子集化后的文件，
 汉字数量 6501，
@@ -56,19 +64,19 @@
 ### 2.3 使用
 
 若您要使用 WebFont，那么在上述列表中需要用到的文件前
-添加 https://cdn.jsdelivr.net/npm/lxgw-wenkai-subset@0.5.0 
+添加 https://cdn.jsdelivr.net/npm/lxgw-wenkai-subset@0.5.1 
 即可使用 jsDelivr 的 CDN 全球加速服务，
 
 例如：
-https://cdn.jsdelivr.net/npm/lxgw-wenkai-subset@0.5.0/woff2/lxgw-wenkai.subset.6501.char.symbol.woff2
+https://cdn.jsdelivr.net/npm/lxgw-wenkai-subset@0.5.1/woff2/lxgw-wenkai-screen.subset.6501.char.symbol.woff2
 
-建议使用 WOFF2 格式
+建议使用 WOFF2 格式。
 ```
 
 
 
 ## 其他
 
-版本 0.5.0
+版本 0.5.1
 
 npm 地址 https://www.npmjs.com/package/lxgw-wenkai-subset

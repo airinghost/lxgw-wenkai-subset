@@ -1,17 +1,17 @@
 
 ## 致谢
 
-### （1）字体
+ **（1）字体**
 
 - 落霞孤鹜(LXGW) - [霞鹜文楷 LXGW WenKai](https://github.com/lxgw/LxgwWenKai)
 
-### （2）工具
+ **（2）工具**
 
 - fontTools - [子集化功能 pyftsubset](https://fonttools.readthedocs.io/en/latest/subset/)
 
 - 夜煞之乐2001(NightFurySL2001) - [字体计数软件 CJK-character-count](https://github.com/NightFurySL2001/CJK-character-count)
 
-### （3）字表
+ **（3）字表**
 
 - 《通用规范汉字表》一级字、二级字
 
@@ -21,7 +21,7 @@
 
 ## 用法
 
-### （1）文件列表
+ **（1）文件列表**
 
 ```
 /* TTF 格式 */
@@ -44,7 +44,7 @@
 /corpus/general-standard-chinese-characters-table1-table2.symbols.txt
 ```
 
-### （2）文件名
+ **（2）文件名**
 
 - 文件名含 `original` 的是 @落霞孤鹜 发布的未子集化的源文件，
 版本号 v1.110-21.10.14
@@ -63,7 +63,7 @@
 - 本子集化字体目前`不含`拉丁字母与阿拉伯数字。
 
 
-### （3）使用
+ **（3）使用**
 
 《通用规范汉字表》的一、二级字基本可覆盖日常用字，如有更大的字库需求，可以使用 [LXGW WenKai Lite / 霞鹜文楷轻便版](https://github.com/lxgw/LxgwWenKai-Lite/)。
 

@@ -73,7 +73,7 @@
 
 ```css
 @font-face {
-  font-family: LXGW WenKai Screen Subset;
+  font-family: LXGW WenKai Screen;
   font-display: swap;
   src:  local(LXGW WenKai Screen),
         local(LXGW WenKai Screen Subset),
@@ -83,7 +83,7 @@
            若否，则会从网站根目录的 fonts 文件夹中加载 */
 
 body {
-  font-family: LXGW WenKai Screen Subset, system-ui, -apple-system, BlinkMacSystemFont, sans-serif, serif;
+  font-family: LXGW WenKai Screen, system-ui, -apple-system, BlinkMacSystemFont, sans-serif, serif;
 }
 ```
 

@@ -1,11 +1,8 @@
 {
   "name": "lxgw-wenkai-subset",
-  "version": "0.5.1",
+  "version": "1.113.0",
   "description": "Subset of the font LXGW WenKai",
   "main": "README.md",
-  "scripts": {
-    "start": "cat README.md"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/airinghost/lxgw-wenkai-subset.git"

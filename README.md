@@ -27,20 +27,20 @@
 
 ```
 /* TTF 格式 */
-/ttf/lxgwwenkai-regular.original.v1.113.ttf
-/ttf/lxgwwenkai-regular.subset.v1.113.gb2312.ttf
-/ttf/lxgwwenkai-regular.subset.v1.113.standard.ttf
-/ttf/lxgwwenkaiscreen.original.v1.112.ttf （注：Screen 版未发布 v1.113 的小更新）
-/ttf/lxgwwenkaiscreen.subset.v1.112.gb2312.ttf
-/ttf/lxgwwenkaiscreen.subset.v1.112.standard.ttf
+/ttf/lxgwwenkai-regular.original.v1.235.2.ttf
+/ttf/lxgwwenkai-regular.subset.v1.235.2.gb2312.ttf
+/ttf/lxgwwenkai-regular.subset.v1.235.2.standard.ttf
+/ttf/lxgwwenkaiscreen.original.v1.235.ttf （注：Screen 版未发布 v1.235.2 的小更新）
+/ttf/lxgwwenkaiscreen.subset.v1.235.gb2312.ttf
+/ttf/lxgwwenkaiscreen.subset.v1.235.standard.ttf
 
 /* WOFF2 格式 */
-/woff2/lxgwwenkai-regular.original.v1.113.woff2
-/woff2/lxgwwenkai-regular.subset.v1.113.gb2312.woff2
-/woff2/lxgwwenkai-regular.subset.v1.113.standard.woff2
-/woff2/lxgwwenkaiscreen.original.v1.112.woff2
-/woff2/lxgwwenkaiscreen.subset.v1.112.gb2312.woff2
-/woff2/lxgwwenkaiscreen.subset.v1.112.standard.woff2
+/woff2/lxgwwenkai-regular.original.v1.235.2.woff2
+/woff2/lxgwwenkai-regular.subset.v1.235.2.gb2312.woff2
+/woff2/lxgwwenkai-regular.subset.v1.235.2.standard.woff2
+/woff2/lxgwwenkaiscreen.original.v1.235.woff2
+/woff2/lxgwwenkaiscreen.subset.v1.235.gb2312.woff2
+/woff2/lxgwwenkaiscreen.subset.v1.235.standard.woff2
 
 /* 字表 */
 /text/gb2312.txt
@@ -69,7 +69,7 @@
   font-family: LXGW WenKai Screen;
   font-display: swap;
   src:  local(LXGW WenKai Screen),
-        url("/fonts/lxgwwenkaiscreen.subset.v1.112.gb2312.woff2") format("woff2");
+        url("/fonts/lxgwwenkaiscreen.subset.v1.235.gb2312.woff2") format("woff2");
 }
         /* 浏览器会首先检查本地是否已安装该字体，
            若否，则会从网站根目录的 fonts 文件夹中加载 */
@@ -77,20 +77,6 @@
 body {
   font-family: LXGW WenKai Screen, system-ui, -apple-system, BlinkMacSystemFont, sans-serif, serif;
 }
-```
-
-另外也可使用 jsDelivr 的 CDN 服务，
-
-即在上述字体文件列表中需要用到的文件前
-
-添加 `https://cdn.jsdelivr.net/npm/lxgw-wenkai-subset@1.113.0`
-
-然后替换上方示例中的 src 部分，  
-即：
-
-```css
-  src:  local(LXGW WenKai Screen),
-        url(https://cdn.jsdelivr.net/npm/lxgw-wenkai-subset@1.113.0/woff2/lxgwwenkaiscreen.subset.v1.112.gb2312.woff2) format("woff2");
 ```
 
 
